@@ -13,5 +13,5 @@ $ sudo docker build -t="redis" .
 ## Container Creation / Running
 
 ```
-$ sudo docker run redis
+$ sudo docker run -p 6379 redis
 ```
